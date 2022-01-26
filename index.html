@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portafolio Web</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div id="bulb" class="bulb">
+            <i id="light" class="fas fa-lightbulb"></i>
+        </div>
+
+        <div class="header__social">
+            <a class="social" target="__blank" href="https://github.com/Francooo2">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a class="social" target="__blank" href="https://www.linkedin.com/in/francopalma2/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="data">
+            <article class="card">
+
+                <div class="card__containerimg">
+                    <img src="assets/img/profile.jpg" alt="Foto de perfil." class="card__img">
+                </div>
+
+                <div class="card__header">
+                    <h2 class="card__title">Franco Palma</h2>
+                    <p class="card__subtitle">Desarrollador Web.</p>
+                </div>
+                
+                <div class="card__body">
+                    <div class="card__link">
+                        <i class="fas fa-envelope icon"></i>
+                        <a class="card__contact" href="mailto:dorian@gmail.com">
+                            fpalmalopez2@gmail.com
+                        </a>
+                    </div>
+                    <div class="card__link">
+                        <i class="fas fa-phone-alt icon"></i>
+                        <a class="card__contact" href="tel:967371267">
+                            +569-67371267
+                        </a>
+                    </div>
+                    <p class="card__text">
+                        Desarrollador Web con 1 año de experiencia en desarrollo independiente, a terceros y en proyectos personales.
+                    </p>
+                </div>
+                
+                
+            </article>
+            
+            <div class="containerright">
+            <article class="card card--skills">
+                <div class="card__header">
+                    <h2 class="card__title">FrontEnd</h2>             
+                    <p class="card__subtitle">Años de experiencia por tema.</p>
+                </div>
+                <div class="card__body">
+                    <p class="card__text">HTML</p>
+                    <div class="card__containersvg">
+                        <svg>
+                            <circle class="card__circleone" cx="100" cy="100" r="70"></circle>
+                            <circle class="card__circletwo" cx="100" cy="100" r="70"></circle>
+                        </svg>
+                        <p id="yearhtml" class="card__text card__text--svg">0</p>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__text">CSS</p>
+                    <div class="card__containersvg">
+                        <svg>
+                            <circle class="card__circleone" cx="100" cy="100" r="70"></circle>
+                            <circle class="card__circletwo" cx="100" cy="100" r="70"></circle>
+                        </svg>
+                        <p id="yearcss" class="card__text card__text--svg">0</p>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__text">JavaScript</p>
+                    <div class="card__containersvg">
+                        <svg>
+                            <circle class="card__circleone" cx="100" cy="100" r="70"></circle>
+                            <circle class="card__circletwo" cx="100" cy="100" r="70"></circle>
+                        </svg>
+                        <p id="yearjavascript" class="card__text card__text--svg">0</p>
+                    </div>
+                </div>
+                 
+            </article>
+
+            <article class="card card--skills">
+                <div class="card__header">
+                    <h2 class="card__title">BackEnd</h2>             
+                    <p class="card__subtitle">Años de experiencia por tema.</p>
+                </div>
+                <div class="card__body">
+                    <p class="card__text">MySQL</p>
+                    <div class="card__containersvg">
+                        <svg>
+                            <circle class="card__circleone" cx="100" cy="100" r="70"></circle>
+                            <circle class="card__circletwo card__circletwo--sql" cx="100" cy="100" r="70"></circle>
+                        </svg>
+                        <p id="yearsql" class="card__text card__text--svg">0</p>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <p class="card__text">Node js</p>
+                    <div class="card__containersvg">
+                        <svg>
+                            <circle class="card__circleone" cx="100" cy="100" r="70"></circle>
+                            <circle class="card__circletwo" cx="100" cy="100" r="70"></circle>
+                        </svg>
+                        <p id="yearnode" class="card__text card__text--svg">0</p>
+                    </div>
+                </div>
+                 
+            </article>
+        </div>
+        </section>
+
+        <section class="data data--two">
+            <article class="card card--project">
+                <div class="card__header">
+                    <h2 class="card__title">Proyectos</h2>             
+                    <p class="card__subtitle">1) Sistema de gestión para restaurant.</p>
+                    <div class="card__containerimg">
+                        <img src="assets/img/projectone.png" alt="Proyecto uno" class="card__img card__img--project">
+                    </div>  
+                </div>       
+                <div class="card__body">
+                    <div class="card__tech">
+                        <span class="tech">#HTML</span>
+                        <span class="tech">#CSS</span>
+                        <span class="tech">#JavaScript</span>
+                        <span class="tech">#MySQL</span>
+                        <span class="tech">#Socket.io</span>
+                        <span class="tech">#Node js</span>
+                        <span class="tech">#JWT</span>
+                    </div>
+                    <div class="card__text">
+                        <p>Proyecto realizado para un cliente de Concepción, en la región del Biobío. El sistema gestiona el comportamiento de las mesas del local, además de registrar ventas y presentarlas como reportería, entre otras funcionalidades.</p>
+                    </div>
+                </div>
+            </article>
+            <article class="card card--project">
+                <div class="card__header">
+                    <p class="card__subtitle">2) Sistema de lista de tareas con inicio de sesión y registro de usuarios.</p>
+                    <div class="card__containerimg">
+                        <img src="assets/img/profile.png" alt="Proyecto uno" class="card__img2 card__img--project">
+                    </div>  
+                </div>       
+                <div class="card__body">
+                    <div class="card__tech">
+                        <span class="tech">#HTML</span>
+                        <span class="tech">#CSS</span>
+                        <span class="tech">#JavaScript</span>
+                        <span class="tech">#MySQL</span>
+                        <span class="tech">#Node js</span>
+                        <span class="tech">#JWT</span>
+                    </div>
+                    <div class="card__text">
+                        <p>Aplicación de tareas, con inicio de sesión, y registro de usuarios en Node js, a modo de práctica.</p>
+                    </div>
+                    <div class="card__buttons">
+                        <a target="__blank" href="https://github.com/Francooo2/meOrganizoApp" class="btn">Code</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
